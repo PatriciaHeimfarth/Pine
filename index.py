@@ -10,12 +10,12 @@ radius = 10
 try:
     x = 0
 
-    while x < 100:
+    while x < 250:
 
         color = (random.randrange(256), random.randrange(
             256), random.randrange(256))
         pygame.draw.circle(screen, color, (random.randrange(
-            500), random.randrange(500)), radius)
+            500), random.randrange(500)), random.randrange(25))
         draw_on = True
         x = x + 1
 
